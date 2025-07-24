@@ -1,0 +1,663 @@
+{
+    "slides": [
+        {
+            "title": "Slide 1",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "深圳市爱奥创科技有限公司",
+                    "options": {
+                        "x": 0.5,
+                        "y": 2.25,
+                        "w": 10.0,
+                        "h": 0.0,
+                        "fontSize": 40.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "最后编辑时间时间 2025年7月23日17:55:52",
+                    "options": {
+                        "x": 0.5,
+                        "y": 3.21,
+                        "w": 10.0,
+                        "h": 0.56,
+                        "fontSize": 8.0,
+                        "align": "left",
+                        "color": "A6A6A6",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "主讲人 aoc",
+                    "options": {
+                        "x": 0.5,
+                        "y": 3.66,
+                        "w": 1.5,
+                        "h": 0.28,
+                        "fontSize": 12.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "时间 2025年7月23日",
+                    "options": {
+                        "x": 2.2,
+                        "y": 3.66,
+                        "w": 1.7,
+                        "h": 0.28,
+                        "fontSize": 12.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "image",
+                    "path": "image_slide1_4.png",
+                    "options": {
+                        "path": "image_slide1_4.png",
+                        "x": 0.5,
+                        "y": 0.5,
+                        "w": 0.5,
+                        "h": 0.5
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Slide 2",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "目录",
+                    "options": {
+                        "x": 0.0,
+                        "y": 0.56,
+                        "w": 10.0,
+                        "h": 0.84,
+                        "fontSize": 22.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "第一条：员工培育计划",
+                    "options": {
+                        "x": 4.5,
+                        "y": 1.69,
+                        "w": 4.0,
+                        "h": 0.28,
+                        "fontSize": 14.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "第二条：员工职能分配",
+                    "options": {
+                        "x": 4.5,
+                        "y": 2.25,
+                        "w": 4.0,
+                        "h": 0.28,
+                        "fontSize": 14.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "第三条：奖惩机制",
+                    "options": {
+                        "x": 4.5,
+                        "y": 2.81,
+                        "w": 4.0,
+                        "h": 0.28,
+                        "fontSize": 14.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "第四条：汇报总结",
+                    "options": {
+                        "x": 4.5,
+                        "y": 3.38,
+                        "w": 4.0,
+                        "h": 0.28,
+                        "fontSize": 14.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "第五条：危机意识",
+                    "options": {
+                        "x": 4.5,
+                        "y": 3.94,
+                        "w": 4.0,
+                        "h": 0.28,
+                        "fontSize": 14.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": false
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Slide 3",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "01",
+                    "options": {
+                        "x": 6.0,
+                        "y": 0.56,
+                        "w": 3.0,
+                        "h": 1.69,
+                        "fontSize": 100.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "员工培育计划",
+                    "options": {
+                        "x": 5.0,
+                        "y": 2.53,
+                        "w": 4.0,
+                        "h": 1.0,
+                        "fontSize": 30.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": true
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Slide 4",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "员工培育计划",
+                    "options": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "w": 10.0,
+                        "h": 0.56,
+                        "fontSize": 30.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 1.0,
+                        "y": 1.41,
+                        "w": 2.0,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 1.0,
+                        "y": 1.97,
+                        "w": 2.0,
+                        "h": 1.69,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 3.0,
+                        "y": 1.41,
+                        "w": 2.0,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 3.0,
+                        "y": 1.97,
+                        "w": 2.0,
+                        "h": 1.69,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 5.0,
+                        "y": 1.41,
+                        "w": 2.0,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 5.0,
+                        "y": 1.97,
+                        "w": 2.0,
+                        "h": 1.69,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 7.0,
+                        "y": 1.41,
+                        "w": 2.0,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 7.0,
+                        "y": 1.97,
+                        "w": 2.0,
+                        "h": 1.69,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Slide 5",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "02",
+                    "options": {
+                        "x": 6.0,
+                        "y": 0.56,
+                        "w": 3.0,
+                        "h": 1.69,
+                        "fontSize": 100.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "员工职能分配",
+                    "options": {
+                        "x": 5.0,
+                        "y": 2.53,
+                        "w": 4.0,
+                        "h": 1.0,
+                        "fontSize": 30.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": true
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Slide 6",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "员工职能分配",
+                    "options": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "w": 10.0,
+                        "h": 0.56,
+                        "fontSize": 30.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 0.61,
+                        "y": 1.19,
+                        "w": 8.14,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 0.69,
+                        "y": 1.65,
+                        "w": 5.13,
+                        "h": 0.75,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 0.61,
+                        "y": 2.53,
+                        "w": 8.19,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 0.69,
+                        "y": 3.03,
+                        "w": 5.19,
+                        "h": 0.75,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 0.61,
+                        "y": 3.86,
+                        "w": 8.19,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 0.69,
+                        "y": 4.41,
+                        "w": 5.19,
+                        "h": 0.78,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Slide 7",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "03",
+                    "options": {
+                        "x": 6.0,
+                        "y": 0.56,
+                        "w": 3.0,
+                        "h": 1.69,
+                        "fontSize": 100.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "奖惩机制",
+                    "options": {
+                        "x": 5.0,
+                        "y": 2.53,
+                        "w": 4.0,
+                        "h": 1.0,
+                        "fontSize": 30.0,
+                        "align": "center",
+                        "color": "000000",
+                        "bold": true
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Slide 8",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "奖惩机制",
+                    "options": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "w": 10.0,
+                        "h": 0.56,
+                        "fontSize": 30.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 0.61,
+                        "y": 1.19,
+                        "w": 4.07,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 0.63,
+                        "y": 1.75,
+                        "w": 4.09,
+                        "h": 0.75,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "销售额与订单量",
+                    "options": {
+                        "x": 4.9,
+                        "y": 3.5,
+                        "w": 4.07,
+                        "h": 0.56,
+                        "fontSize": 16.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "本年度电商销售数据呈现出稳健增长的态势。销售额与订单量的同比增长显著，显示出电商市场需求的旺盛。特别是节假日促销期间，销售额出现爆发式增长，表明消费者对于电商购物模式的接受度和依赖度不断提高。",
+                    "options": {
+                        "x": 4.92,
+                        "y": 4.05,
+                        "w": 4.09,
+                        "h": 0.75,
+                        "fontSize": 11.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Slide 9",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "type": "text",
+                    "text": "感谢聆听！",
+                    "options": {
+                        "x": 0.5,
+                        "y": 2.25,
+                        "w": 10.0,
+                        "h": 0.0,
+                        "fontSize": 40.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": true
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "最后编辑时间时间 2025年7月23日17:55:52",
+                    "options": {
+                        "x": 0.5,
+                        "y": 3.21,
+                        "w": 10.0,
+                        "h": 0.56,
+                        "fontSize": 8.0,
+                        "align": "left",
+                        "color": "A6A6A6",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "主讲人 aoc",
+                    "options": {
+                        "x": 0.5,
+                        "y": 3.66,
+                        "w": 1.5,
+                        "h": 0.28,
+                        "fontSize": 12.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "时间 2025年7月23日",
+                    "options": {
+                        "x": 2.2,
+                        "y": 3.66,
+                        "w": 1.7,
+                        "h": 0.28,
+                        "fontSize": 12.0,
+                        "align": "left",
+                        "color": "000000",
+                        "bold": false
+                    }
+                },
+                {
+                    "type": "image",
+                    "path": "image_slide9_4.png",
+                    "options": {
+                        "path": "image_slide9_4.png",
+                        "x": 0.5,
+                        "y": 0.5,
+                        "w": 0.5,
+                        "h": 0.5
+                    }
+                }
+            ]
+        }
+    ]
+}
