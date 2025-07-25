@@ -1,10 +1,12 @@
-import pptxgen from "pptxgenjs"; 
+import pptxgen from "pptxgenjs";
 import { loadJson } from "../tool/loadJson.js";
 // 1. Create a new Presentation
 
+
+let jsonName="output"
 let pres = new pptxgen();
 // 加载完模板文件 需要与PPT大纲内容进行替换
-let jsonData = loadJson("../pptjson/output.json") 
+let jsonData = loadJson(`../pptjson/${jsonName}.json`)
 
 let { slides } = jsonData
 
@@ -48,7 +50,7 @@ slides.forEach((item, slideIndex) => {
                 ) {
                     try {
                         const chartType = pres.ChartType[element.options.chartType.toLowerCase()];
-                        console.log(element.options.chartType,"chartType")
+                        console.log(element.options.chartType, "chartType")
                         if (chartType) {
                             slide.addChart(chartType, element.options.data, element.options || {});
                         } else {
@@ -95,5 +97,6 @@ slides.forEach((item, slideIndex) => {
     });
 });
 
-
-pres.writeFile({ fileName: './ppt/bytemp2.pptx' });
+let pptfilename = "bytemp3"
+pres.writeFile({ fileName: `./ppt/${pptfilename}.pptx` });
+console.log(` ${jsonName}.json 转 PPT ${pptfilename}.pptx 成功✅`)

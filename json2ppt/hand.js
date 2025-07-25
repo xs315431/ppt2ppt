@@ -5,6 +5,9 @@ let pres = new pptxgen();
 
 pres.defineSlideMaster({
     title: 'LOGO_TEMPLATE',
+    // background: {
+    //     path: "C:Users/admin/Downloads/bg.png"
+    // },
     // background: { fill: 'F2F2F2' }, // 背景浅灰色
     objects: [
         {
@@ -17,15 +20,15 @@ pres.defineSlideMaster({
             },
         },
         {
-            text: '公司官网：www.yourcompany.com',
+            text: '公司官网：www.yourcompany.com',  // ✅这是文本内容
             options: {
-                x: 1,
-                y: 5.0,           // 👈 调整到底部区域（5.0 in ~ 5.625 in）
-                w: '100%',
-                h: 0.4,
-                fontSize: 12,
-                color: '666666',
-                align: 'center',
+                x: 1.0,
+                y: 1.0,           // ✅ y调高点，避免被挡住（可试 5.0~5.4）
+                w: "100%",
+                h: 1,
+                fontSize: 14,
+                color: '000000',
+                align: 'center'
             }
         },
     ],
@@ -36,7 +39,7 @@ pres.defineSlideMaster({
 // masterName 使用母版
 let slide1 = pres.addSlide({ masterName: 'LOGO_TEMPLATE' })
 
-setBackgroundImage(slide1, "C:Users/admin/Downloads/bg.png")
+// setBackgroundImage(slide1, "C:Users/admin/Downloads/bg.png")
 setLogoImage(slide1, "https://aiultronx.com/wp-content/uploads/2024/09/cropped-1-03.png")
 addMainTitle(slide1, "深圳市爱奥创科技有限公司")
 addSpeechmaker(slide1, "aoc")
@@ -47,9 +50,9 @@ addSpeechTime(slide1, "2025年7月19日")
 
 // 第二页
 let slide2 = pres.addSlide()
-slide2.background = {
-    color: 'FFF000', transparency: 50
-}
+// slide2.background = {
+//     color: 'FFF000', transparency: 50
+// }
 // setBackgroundImage(slide2, "C:Users/admin/Downloads/bg.png")
 // 目录
 slide2.addText(`目录`, {

@@ -19,6 +19,9 @@ def extract_ppt_to_json(ppt_path: str) -> dict:
         }
 
         for shape in slide.shapes:
+            print(shape.shape_type, "3333")
+            print(shape.has_table, "3333")
+
             # 处理图片
             if shape.shape_type == 13:  # PICTURE
                 image_path = f"image_slide{slide_idx + 1}_{len(slide_data['elements'])}.png"
@@ -36,18 +39,31 @@ def extract_ppt_to_json(ppt_path: str) -> dict:
                         "h": pt_to_inches(shape.height.pt)
                     }
                 })
-
+            elif shape.shape_type == 6:
+                slide_data["elements"].append({
+                    "type": "image",
+                    "path": image_path,
+                    "options": {
+                        "path": image_path,
+                        "x": pt_to_inches(shape.left.pt),
+                        "y": pt_to_inches(shape.top.pt),
+                        "w": pt_to_inches(shape.width.pt),
+                        "h": pt_to_inches(shape.height.pt)
+                    }
+                })
             # 处理文本
-            elif shape.has_text_frame:
+            elif shape.has_text_frame: 
+
                 for para in shape.text_frame.paragraphs:
                     font_size = None
                     font_color = None
                     is_bold = False
 
                     for run in para.runs:
+                        print(run,"run")
                         if not font_size and run.font.size:
                             font_size = run.font.size.pt
-                        if not font_color and run.font.color and run.font.color.rgb:
+                        if not font_color and run.font.color and hasattr(run.font.color, 'rgb'):
                             font_color = str(run.font.color.rgb)
                         if run.font.bold:
                             is_bold = True
@@ -76,11 +92,14 @@ def extract_ppt_to_json(ppt_path: str) -> dict:
 
     return {"slides": slides_json}
 
+pptName="电商年中总结"
+jsonName="output"
 # 用法示例
-ppt_file = "./PPTtemplate/temp1.pptx"
+ppt_file = f"./PPTtemplate/{pptName}.pptx"
+# ppt_file = "./PPTtemplate/trainer - copy.pptx"
 json_output = extract_ppt_to_json(ppt_file)
 
-with open("./pptjson/output.json", "w", encoding="utf-8") as f:
+with open(f"./pptjson/{jsonName}.json", "w", encoding="utf-8") as f:
     json.dump(json_output, f, ensure_ascii=False, indent=4)
 
-print("✅ PPT 转 JSON 成功")
+print(f"✅  {pptName}.pptx 转 {jsonName}.json 成功")
